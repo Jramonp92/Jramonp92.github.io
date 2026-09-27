@@ -1,0 +1,168 @@
+{
+  "name": "Jesus Ramon Portillo",
+  "nameSuffix": "∴",
+  "role": "Senior SDET · QA Lead · Release Manager",
+  "description": "Jesus Ramon Portillo — Senior SDET, QA Lead and Release Manager with 8+ years in test automation, quality engineering, CI/CD and mobile platforms.",
+  "photo": "photo.png",
+  "pdfName": "CV-Jesus-Ramon-SDET-2026",
+  "contact": {
+    "location": "Montevideo, Uruguay",
+    "email": "enc:bW9jLmxpYW1nQDUwMDJub21hcnBq",
+    "linkedin": "enc:L25vbWFyLXN1c2VqL25pL21vYy5uaWRla25pbC53d3cvLzpzcHR0aA==",
+    "github": "enc:Mjlwbm9tYXJKL21vYy5idWh0aWcvLzpzcHR0aA=="
+  },
+  "summary": [
+    "SDET leader with a strong engineering mindset and **8+ years of experience** across test automation, quality engineering, quality strategy, CI/CD, developer tooling, mobile and web platforms, and release management.",
+    "Experienced in leading QA teams, driving quality initiatives across multiple engineering teams, improving SDLC processes, and building scalable automation and internal tools. Strong background in cross-functional collaboration, stakeholder management, incident management, and complex software releases, with a focus on balancing product quality, engineering efficiency, and delivery speed.",
+    "More recently, the work has expanded into **AI-assisted software development**, focusing on quality practices, responsible AI usage, and establishing guidelines and policies for the effective use of AI tools to improve code quality and engineering / testing productivity."
+  ],
+  "skills": [
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "Bash",
+    "Playwright",
+    "Cypress",
+    "Selenium",
+    "Appium",
+    "SQL",
+    "Databricks",
+    "Kafka",
+    "Jenkins",
+    "GitHub Actions",
+    "Android",
+    "iOS",
+    "Charles",
+    "Datadog",
+    "New Relic",
+    "ThoughtSpot",
+    "Amplitude",
+    "AWS",
+    "GCP",
+    "Firebase",
+    "Usability Testing",
+    "A11Y",
+    "API Testing",
+    "Performance Testing",
+    "Incident Manager",
+    "Release Manager",
+    "Tech Lead",
+    "Regression Testing",
+    "Sanity Testing",
+    "Jira"
+  ],
+  "experience": [
+    {
+      "company": "Flipp Corporation",
+      "title": "Senior SDET / QA Lead / Release Manager",
+      "period": "2022 – Present",
+      "location": "Canada - Remote",
+      "intro": "Joined Flipp as a Mid-Level SDET and was promoted to Senior SDET and QA Lead for the Mobile Engineering vertical, supporting applications with a user base of **4M+ users**. Led the quality strategy for mobile applications while coordinating complex integrations and dependencies across 10+ engineering teams and leading a team of 5 test engineers. Later transitioned into the Release Manager role, taking ownership of release processes and cross-functional coordination across engineering and product teams.",
+      "bullets": [
+        "Defined and drove the overall quality strategy for mobile applications.",
+        "Led a team of 5 test engineers and supported their technical and professional development.",
+        "Coordinated quality initiatives and complex integrations across 10+ engineering teams.",
+        "Worked hand in hand on the acquisition of reebee Inc., and later ShopFully, supporting the integration of their products and teams.",
+        "Designed and maintained CI/CD pipelines and internal engineering tools to improve testing efficiency and developer experience.",
+        "Led mobile automation initiatives across iOS and Android.",
+        "Managed software release processes, coordinating validation, risk assessment, deployment readiness, and cross-functional communication.",
+        "Led incident management, defect triage, and production quality initiatives.",
+        "Improved SDLC and quality processes to increase engineering efficiency and release confidence.",
+        "Partnered with engineering, product, data, and other technical and non-technical stakeholders to identify and mitigate quality risks.",
+        "Designed an internal service desk tool for non-technical stakeholders as a point of connection with engineering teams, saving and preventing $2M+ in less than a year.",
+        "Designed multiple AI-assisted QA flows for test engineers and helped non-dev teams adopt and use AI tools to improve their workflows."
+      ],
+      "coreAreas": [
+        "Release Management",
+        "Quality Engineering",
+        "QA Leadership",
+        "Test Strategy",
+        "CI/CD",
+        "Mobile Automation",
+        "Developer Tooling",
+        "Incident Management",
+        "Defect Management",
+        "Cross-functional Leadership"
+      ]
+    },
+    {
+      "company": "Globant",
+      "title": "Senior QA Automation Engineer / QA Lead / Quality Manager",
+      "period": "2019 – 2022",
+      "location": "Uruguay",
+      "intro": "Worked across multiple client projects as a QA Automation Engineer and QA Automation Lead. The most notable engagement was with Johnson & Johnson Pharma Services, supporting software quality initiatives and leading small QA teams of 2–5 engineers.",
+      "bullets": [
+        "Led and mentored QA engineers across multiple projects and client engagements.",
+        "Designed and implemented quality strategies and testing processes aligned with project goals.",
+        "Improved SDLC processes and established quality practices across development teams.",
+        "Designed, developed, and maintained custom test automation frameworks.",
+        "Coordinated testing activities, requirements, scope, timelines, and quality risks with technical and business stakeholders.",
+        "Participated in QA interviews and supported team staffing and growth.",
+        "Worked directly with clients and stakeholders to define quality expectations and delivery processes."
+      ],
+      "coreAreas": []
+    },
+    {
+      "company": "Stamina Group",
+      "title": "QA Engineer",
+      "period": "2018 – 2020",
+      "location": "Remote / US",
+      "intro": "Joined as a Manual QA Engineer supporting small and mid-sized web and mobile application projects. Worked as an external QA resource, collaborating directly with project stakeholders.",
+      "bullets": [
+        "Executed test plans and managed defects across web and mobile applications.",
+        "Coordinated requirements, scope, timelines, and testing activities with stakeholders.",
+        "Performed functional, regression, exploratory, and integration testing.",
+        "Began developing test automation skills and introducing automation into testing workflows.",
+        "Developed web scraping solutions to support client requirements."
+      ],
+      "coreAreas": []
+    },
+    {
+      "company": "Fiverr / Upwork",
+      "title": "Freelance Developer / Web Scraping Specialist",
+      "period": "2015 – 2018",
+      "location": "Remote",
+      "intro": "Provided freelance development and technical services for clients through Fiverr and Upwork.",
+      "bullets": [
+        "Developed and maintained small websites and custom software solutions.",
+        "Troubleshot and fixed application issues on demand.",
+        "Developed custom web scraping solutions for multiple clients.",
+        "Worked directly with clients to understand requirements and deliver technical solutions.",
+        "Managed projects independently from requirements gathering through delivery."
+      ],
+      "coreAreas": []
+    }
+  ],
+  "education": [
+    {
+      "school": "ORT Uruguay",
+      "degree": "Bachelor's Degree in Information Technology",
+      "period": "2019 – 2021"
+    },
+    {
+      "school": "Universidad Gran Mariscal de Ayacucho — Venezuela",
+      "degree": "Law Degree",
+      "period": "2009 – 2015"
+    },
+    {
+      "school": "Universidad de Oriente (UDO) — Venezuela",
+      "degree": "Systems Engineering — Incomplete · Completed 3 years of coursework",
+      "period": "2009 – 2012"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Spanish",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "level": "Professional"
+    },
+    {
+      "name": "Portuguese",
+      "level": "Basic"
+    }
+  ],
+  "footer": "© 2026 Jesus Ramon Portillo"
+}
