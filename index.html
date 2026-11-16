@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-variant="default">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/json" id="cv-meta">{"variants": ["aa"], "pdf": {"default": "CV-Jesus-Ramon-SDET-2026", "aa": "CV-Jesus-Ramon-2026"}}</script>
+<script>(function(){try{var m=JSON.parse(document.getElementById("cv-meta").textContent),v=new URLSearchParams(location.search).get("v");if(v&&m.variants.indexOf(v)>-1)document.documentElement.setAttribute("data-variant",v);}catch(e){}})();</script>
 <title>Jesus Ramon Portillo</title>
 <meta name="description" content="Jesus Ramon Portillo — Senior SDET, QA Lead and Release Manager with 8+ years in test automation, quality engineering, CI/CD and mobile platforms.">
 <link rel="canonical" href="https://jramonp92.github.io/">
@@ -107,6 +109,12 @@
   .job:first-of-type { border-top: 0; padding-top: 0; }
   .when { color: var(--muted); font-size: 0.9rem; font-variant-numeric: tabular-nums; }
   .when .where { display: block; margin-top: 2px; font-size: 0.85rem; }
+  .roadmap { list-style: none; margin: 16px 0 0; padding: 0 0 0 14px; border-left: 2px solid var(--line); }
+  .roadmap li { position: relative; padding-bottom: 12px; font-size: 0.82rem; line-height: 1.35; }
+  .roadmap li:last-child { padding-bottom: 0; }
+  .roadmap li::before { content: ""; position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
+  .roadmap .p { display: block; color: var(--muted); }
+  .roadmap .t { display: block; color: var(--text); font-weight: 500; }
   .job h3 { margin: 0; font-size: 1.08rem; }
   .job .title { margin: 2px 0 10px; color: var(--accent); font-weight: 500; font-size: 0.95rem; }
   .job ul { margin: 10px 0 0; padding-left: 18px; }
@@ -154,6 +162,8 @@
     .job li, .job > div > p { break-inside: avoid; }
     .job li { margin-bottom: 3px; }
   }
+  html[data-variant="default"] [data-for]:not([data-for~="default"]) { display: none; }
+  html[data-variant="aa"] [data-for]:not([data-for~="aa"]) { display: none; }
 </style>
 </head>
 <body>
@@ -167,7 +177,7 @@
         <img class="avatar" src="photo.png" alt="Jesus Ramon Portillo" width="112" height="112">
         <div>
           <h1>Jesus Ramon Portillo<span class="dots" aria-hidden="true">∴</span></h1>
-          <p class="role">Senior SDET · QA Lead · Release Manager</p>
+          <p class="role"><span data-for="default">Senior SDET · QA Lead · Release Manager</span><span data-for="aa">Release Manager - TPM</span></p>
         </div>
       </div>
       <div class="actions">
@@ -191,17 +201,27 @@
 
   <section>
     <h2>Professional Summary</h2>
+<div data-for="default">
     <p>SDET leader with a strong engineering mindset and <strong>8+ years of experience</strong> across test automation, quality engineering, quality strategy, CI/CD, developer tooling, mobile and web platforms, and release management.</p>
     <p>Experienced in leading QA teams, driving quality initiatives across multiple engineering teams, improving SDLC processes, and building scalable automation and internal tools. Strong background in cross-functional collaboration, stakeholder management, incident management, and complex software releases, with a focus on balancing product quality, engineering efficiency, and delivery speed.</p>
     <p>More recently, the work has expanded into <strong>AI-assisted software development</strong>, focusing on quality practices, responsible AI usage, and establishing guidelines and policies for the effective use of AI tools to improve code quality and engineering / testing productivity.</p>
-    <div class="chips">
+</div>
+<div data-for="aa">
+    <p>Release Manager with a strong engineering background and 8+ years of experience across software quality engineering, automation, release management, Devops, developer tooling, and mobile and web platforms.</p>
+    <p>Experienced in leading end-to-end release processes for complex mobile applications, coordinating cross-functional teams, managing technical dependencies, overseeing release planning and execution, and mitigating delivery risks. Strong expertise in release strategies, branching workflows, feature flag management, CI/CD pipelines, App Store deployments, incident management, and continuous improvement of software delivery processes.</p>
+    <p>Combines hands-on software engineering expertise with technical leadership, stakeholder management, and cross-functional coordination to ensure reliable, predictable, and efficient software releases. More recently, expanding into AI-assisted software development, focusing on quality practices, responsible AI adoption, and establishing guidelines to improve engineering productivity and software quality.</p>
+</div>
+    <div class="chips" data-for="default">
       <span class="chip">Python</span><span class="chip">JavaScript</span><span class="chip">TypeScript</span><span class="chip">Bash</span><span class="chip">Playwright</span><span class="chip">Cypress</span><span class="chip">Selenium</span><span class="chip">Appium</span><span class="chip">SQL</span><span class="chip">Databricks</span><span class="chip">Kafka</span><span class="chip">Jenkins</span><span class="chip">GitHub Actions</span><span class="chip">Android</span><span class="chip">iOS</span><span class="chip">Charles</span><span class="chip">Datadog</span><span class="chip">New Relic</span><span class="chip">ThoughtSpot</span><span class="chip">Amplitude</span><span class="chip">AWS</span><span class="chip">GCP</span><span class="chip">Firebase</span><span class="chip">Usability Testing</span><span class="chip">A11Y</span><span class="chip">API Testing</span><span class="chip">Performance Testing</span><span class="chip">Incident Manager</span><span class="chip">Release Manager</span><span class="chip">Tech Lead</span><span class="chip">Regression Testing</span><span class="chip">Sanity Testing</span><span class="chip">Jira</span>
+    </div>
+    <div class="chips" data-for="aa">
+      <span class="chip">Python</span><span class="chip">TypeScript</span><span class="chip">Bash</span><span class="chip">SQL</span><span class="chip">Databricks</span><span class="chip">Kafka</span><span class="chip">Jenkins</span><span class="chip">GitHub Actions</span><span class="chip">Android</span><span class="chip">iOS</span><span class="chip">Charles</span><span class="chip">Datadog</span><span class="chip">New Relic</span><span class="chip">ThoughtSpot</span><span class="chip">Amplitude</span><span class="chip">AWS</span><span class="chip">GCP</span><span class="chip">Fastlane</span><span class="chip">Firebase</span><span class="chip">Usability Testing</span><span class="chip">A11Y</span><span class="chip">API Testing</span><span class="chip">Performance Testing</span><span class="chip">Playwright</span><span class="chip">Cypress</span><span class="chip">Selenium</span><span class="chip">Appium</span><span class="chip">Incident Manager</span><span class="chip">AI Engineering</span><span class="chip">DeepEval</span><span class="chip">Rag System</span>
     </div>
   </section>
 
   <section>
     <h2>Experience</h2>
-
+<div data-for="default">
     <article class="job">
       <div class="when">2022 – Present<span class="where">Canada - Remote</span></div>
       <div>
@@ -275,6 +295,85 @@
         </ul>
       </div>
     </article>
+</div>
+<div data-for="aa">
+    <article class="job">
+      <div class="when">2022 – Present<span class="where">Canada - Remote</span><ol class="roadmap"><li><span class="p"></span><span class="t">2022 - 2023 - Senior QA</span></li><li><span class="p"></span><span class="t">2023-2026 - Release Manager</span></li><li><span class="p"></span><span class="t">2026 - 2026 - Technical Program Manager</span></li><li><span class="p"></span><span class="t">Actualidad - SDET</span></li></ol></div>
+      <div>
+        <h3>Flipp Corporation</h3>
+        <p class="title">Release Manager - TPM</p>
+        <p>Joined Flipp as a Senior-Level Quality Engineer and was promoted to Release Manager for the Mobile Engineering vertical, supporting applications with 4M+ users. 
+
+Later transitioned into the Release Manager role, taking ownership of end-to-end mobile release management, including release planning and execution, cross-functional coordination across Engineering, Product, Backend, and Customer Experience teams, dependency management, risk assessment, release readiness, and deployment strategies. Oversaw release calendars, branching strategies, feature flag lifecycle management, CI/CD pipelines, App Store submissions, crash monitoring, and release-related technical processes.
+
+In February 2026, transitioned into a Technical Program Manager (TPM) role, coordinating technical initiatives and cross-functional engineering efforts. Following an organizational restructuring in November 2026, transitioned back into an SDET role with a broader engineering perspective, bridging software quality, development practices, and engineering processes.</p>
+        <ul>
+          <li><strong>Revamped the mobile CI/CD infrastructure</strong>, migrating pipelines from Jenkins to GitHub Actions across on-premise and cloud environments, reducing build execution times from 40 minutes to approximately 7 minutes.</li>
+          <li><strong>Designed and developed a self-service mobile build platform</strong>, enabling QA engineers and non-technical stakeholders to trigger builds on demand and distribute them directly to their devices through APKs, Firebase App Distribution, and TestFlight, reducing engineering dependencies and accelerating validation workflows.</li>
+          <li><strong>Established a comprehensive frontend monitoring and observability ecosystem</strong>, integrating Firebase Crashlytics, application event monitoring, internal dashboards, and Datadog. Implemented automated alerts and anomaly detection mechanisms to improve production visibility, proactively identify issues, and accelerate incident investigation.</li>
+          <li><strong>Led the transition from GitFlow to Trunk-Based Development</strong>, redesigning branching workflows, establishing new development practices, and driving adoption and education across multiple engineering teams.</li>
+          <li><strong>Designed and implemented a feature flag lifecycle management system</strong>, enabling teams to identify, track, and safely deprecate and remove obsolete feature flags, reducing technical debt and release complexity.</li>
+          <li><strong>Optimized mobile regression testing cycles</strong> by developing custom tools and automation scripts that streamlined test execution, reduced manual effort, and enabled the Quality team to validate app versions faster and more efficiently.</li>
+          <li><strong>Owned end-to-end mobile release management</strong>, coordinating release planning, cross-team dependencies, validation, risk assessment, deployment readiness, App Store submissions, release calendars, and cross-functional communication across Engineering, Product, Backend, and Customer Experience.</li>
+          <li><strong>Led a team of 5 test engineers</strong> and coordinated quality and release-related initiatives across 10+ engineering teams, driving quality standards and engineering process improvements.</li>
+          <li><strong>Designed and implemented an internal service desk platform</strong> connecting non-technical stakeholders with engineering teams, streamlining support workflows and saving and preventing over <strong>$2M in costs within its first year</strong>.</li>
+          <li><strong>Supported the integration of Reebee Inc. and ShopFully following their acquisitions</strong>, collaborating with engineering and product teams to facilitate product and organizational integration.</li>
+          <li>Increased mobile release cadence from 3 to 5 releases per month by optimizing release workflows, improving cross-team coordination, and streamlining validation and deployment processes, increasing delivery frequency by approximately 67% without compromising product quality or release stability.</li>
+        </ul>
+        <p class="core"><strong>Core areas:</strong> Release Management · Quality Engineering · QA Leadership · Test Strategy · CI/CD · Mobile Automation · Developer Tooling · Incident Management · Defect Management · Cross-functional Leadership</p>
+      </div>
+    </article>
+
+    <article class="job">
+      <div class="when">2019 – 2022<span class="where">Uruguay</span><ol class="roadmap"><li><span class="p"></span><span class="t">2019 - Mid QA</span></li><li><span class="p"></span><span class="t">2020 - 2022 - Senior QA</span></li></ol></div>
+      <div>
+        <h3>Globant</h3>
+        <p class="title">Senior QA Automation Engineer / QA Lead / Quality Manager</p>
+        <p>Worked across multiple client projects as a QA Automation Engineer and QA Automation Lead. The most notable engagement was with Johnson &amp; Johnson Pharma Services, supporting software quality initiatives and leading small QA teams of 2–5 engineers.</p>
+        <ul>
+          <li>Led and mentored QA engineers across multiple projects and client engagements.</li>
+          <li>Designed and implemented quality strategies and testing processes aligned with project goals.</li>
+          <li>Improved SDLC processes and established quality practices across development teams.</li>
+          <li>Designed, developed, and maintained custom test automation frameworks.</li>
+          <li>Coordinated testing activities, requirements, scope, timelines, and quality risks with technical and business stakeholders.</li>
+          <li>Participated in QA interviews and supported team staffing and growth.</li>
+          <li>Worked directly with clients and stakeholders to define quality expectations and delivery processes.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="job">
+      <div class="when">2018 – 2020<span class="where">Remote / US</span></div>
+      <div>
+        <h3>Stamina Group</h3>
+        <p class="title">QA Engineer</p>
+        <p>Joined as a Manual QA Engineer supporting small and mid-sized web and mobile application projects. Worked as an external QA resource, collaborating directly with project stakeholders.</p>
+        <ul>
+          <li>Executed test plans and managed defects across web and mobile applications.</li>
+          <li>Coordinated requirements, scope, timelines, and testing activities with stakeholders.</li>
+          <li>Performed functional, regression, exploratory, and integration testing.</li>
+          <li>Began developing test automation skills and introducing automation into testing workflows.</li>
+          <li>Developed web scraping solutions to support client requirements.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="job">
+      <div class="when">2015 – 2018<span class="where">Remote</span></div>
+      <div>
+        <h3>Fiverr / Upwork</h3>
+        <p class="title">Freelance Developer / Web Scraping Specialist</p>
+        <p>Provided freelance development and technical services for clients through Fiverr and Upwork.</p>
+        <ul>
+          <li>Developed and maintained small websites and custom software solutions.</li>
+          <li>Troubleshot and fixed application issues on demand.</li>
+          <li>Developed custom web scraping solutions for multiple clients.</li>
+          <li>Worked directly with clients to understand requirements and deliver technical solutions.</li>
+          <li>Managed projects independently from requirements gathering through delivery.</li>
+        </ul>
+      </div>
+    </article>
+</div>
   </section>
 
   <section>
@@ -361,10 +460,16 @@
     }
   }
 
+  // The visible CV version (?v=<key>); the base CV is "default".
+  function currentVariant() {
+    return document.documentElement.getAttribute('data-variant') || 'default';
+  }
+
   document.getElementById('share').addEventListener('click', async function () {
     var label = this.querySelector('span');
     var canonical = document.querySelector('link[rel="canonical"]');
-    var url = canonical ? canonical.href : location.href.split('#')[0];
+    var url = canonical ? canonical.href : location.href.split('#')[0].split('?')[0];
+    if (currentVariant() !== 'default') url += '?v=' + currentVariant();
     var data = { title: document.title, url: url };
     if (navigator.share && (!navigator.canShare || navigator.canShare(data))) {
       try {
@@ -382,8 +487,9 @@
   // for crawlers to find. The title becomes the suggested file name.
   document.getElementById('pdf').addEventListener('click', function () {
     document.querySelectorAll('.reveal').forEach(reveal);
-    var title = document.title;
-    document.title = this.dataset.pdfName || title;
+    var title = document.title, pdf = this.dataset.pdfName;
+    try { pdf = JSON.parse(document.getElementById('cv-meta').textContent).pdf[currentVariant()] || pdf; } catch (e) {}
+    document.title = pdf || title;
     window.print();
     document.title = title;
   });

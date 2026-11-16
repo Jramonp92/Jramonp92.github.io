@@ -164,5 +164,81 @@
       "level": "Basic"
     }
   ],
-  "footer": "© 2026 Jesus Ramon Portillo"
+  "footer": "© 2026 Jesus Ramon Portillo",
+  "variants": {
+    "aa": {
+      "label": "Release Manager",
+      "role": "Release Manager - TPM",
+      "pdfName": "CV-Jesus-Ramon-2026",
+      "summary": [
+        "Release Manager with a strong engineering background and 8+ years of experience across software quality engineering, automation, release management, Devops, developer tooling, and mobile and web platforms.",
+        "Experienced in leading end-to-end release processes for complex mobile applications, coordinating cross-functional teams, managing technical dependencies, overseeing release planning and execution, and mitigating delivery risks. Strong expertise in release strategies, branching workflows, feature flag management, CI/CD pipelines, App Store deployments, incident management, and continuous improvement of software delivery processes.",
+        "Combines hands-on software engineering expertise with technical leadership, stakeholder management, and cross-functional coordination to ensure reliable, predictable, and efficient software releases. More recently, expanding into AI-assisted software development, focusing on quality practices, responsible AI adoption, and establishing guidelines to improve engineering productivity and software quality."
+      ],
+      "skills": [
+        "Python",
+        "TypeScript",
+        "Bash",
+        "SQL",
+        "Databricks",
+        "Kafka",
+        "Jenkins",
+        "GitHub Actions",
+        "Android",
+        "iOS",
+        "Charles",
+        "Datadog",
+        "New Relic",
+        "ThoughtSpot",
+        "Amplitude",
+        "AWS",
+        "GCP",
+        "Fastlane",
+        "Firebase",
+        "Usability Testing",
+        "A11Y",
+        "API Testing",
+        "Performance Testing",
+        "Playwright",
+        "Cypress",
+        "Selenium",
+        "Appium",
+        "Incident Manager",
+        "AI Engineering",
+        "DeepEval",
+        "Rag System"
+      ],
+      "jobs": {
+        "0": {
+          "roles": [
+            "2022 - 2023 - Senior QA",
+            "2023-2026 - Release Manager",
+            "2026 - 2026 - Technical Program Manager",
+            "Actualidad - SDET"
+          ],
+          "intro": "Joined Flipp as a Senior-Level Quality Engineer and was promoted to Release Manager for the Mobile Engineering vertical, supporting applications with 4M+ users. \n\nLater transitioned into the Release Manager role, taking ownership of end-to-end mobile release management, including release planning and execution, cross-functional coordination across Engineering, Product, Backend, and Customer Experience teams, dependency management, risk assessment, release readiness, and deployment strategies. Oversaw release calendars, branching strategies, feature flag lifecycle management, CI/CD pipelines, App Store submissions, crash monitoring, and release-related technical processes.\n\nIn February 2026, transitioned into a Technical Program Manager (TPM) role, coordinating technical initiatives and cross-functional engineering efforts. Following an organizational restructuring in November 2026, transitioned back into an SDET role with a broader engineering perspective, bridging software quality, development practices, and engineering processes.",
+          "bullets": [
+            "**Revamped the mobile CI/CD infrastructure**, migrating pipelines from Jenkins to GitHub Actions across on-premise and cloud environments, reducing build execution times from 40 minutes to approximately 7 minutes.",
+            "**Designed and developed a self-service mobile build platform**, enabling QA engineers and non-technical stakeholders to trigger builds on demand and distribute them directly to their devices through APKs, Firebase App Distribution, and TestFlight, reducing engineering dependencies and accelerating validation workflows.",
+            "**Established a comprehensive frontend monitoring and observability ecosystem**, integrating Firebase Crashlytics, application event monitoring, internal dashboards, and Datadog. Implemented automated alerts and anomaly detection mechanisms to improve production visibility, proactively identify issues, and accelerate incident investigation.",
+            "**Led the transition from GitFlow to Trunk-Based Development**, redesigning branching workflows, establishing new development practices, and driving adoption and education across multiple engineering teams.",
+            "**Designed and implemented a feature flag lifecycle management system**, enabling teams to identify, track, and safely deprecate and remove obsolete feature flags, reducing technical debt and release complexity.",
+            "**Optimized mobile regression testing cycles** by developing custom tools and automation scripts that streamlined test execution, reduced manual effort, and enabled the Quality team to validate app versions faster and more efficiently.",
+            "**Owned end-to-end mobile release management**, coordinating release planning, cross-team dependencies, validation, risk assessment, deployment readiness, App Store submissions, release calendars, and cross-functional communication across Engineering, Product, Backend, and Customer Experience.",
+            "**Led a team of 5 test engineers** and coordinated quality and release-related initiatives across 10+ engineering teams, driving quality standards and engineering process improvements.",
+            "**Designed and implemented an internal service desk platform** connecting non-technical stakeholders with engineering teams, streamlining support workflows and saving and preventing over **$2M in costs within its first year**.",
+            "**Supported the integration of Reebee Inc. and ShopFully following their acquisitions**, collaborating with engineering and product teams to facilitate product and organizational integration.",
+            "Increased mobile release cadence from 3 to 5 releases per month by optimizing release workflows, improving cross-team coordination, and streamlining validation and deployment processes, increasing delivery frequency by approximately 67% without compromising product quality or release stability."
+          ],
+          "title": "Release Manager - TPM"
+        },
+        "1": {
+          "roles": [
+            "2019 - Mid QA",
+            "2020 - 2022 - Senior QA"
+          ]
+        }
+      }
+    }
+  }
 }
