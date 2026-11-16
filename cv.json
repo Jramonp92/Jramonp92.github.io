@@ -168,7 +168,7 @@
   "variants": {
     "aa": {
       "label": "Release Manager",
-      "role": "Release Manager - TPM",
+      "role": "Release Manager / LeadQuality Engineer",
       "pdfName": "CV-Jesus-Ramon-2026",
       "summary": [
         "Release Manager with a strong engineering background and 8+ years of experience across software quality engineering, automation, release management, Devops, developer tooling, and mobile and web platforms.",
@@ -214,9 +214,9 @@
             "2022 - 2023 - Senior QA",
             "2023-2026 - Release Manager",
             "2026 - 2026 - Technical Program Manager",
-            "Actualidad - SDET"
+            "Present - SDET"
           ],
-          "intro": "Joined Flipp as a Senior-Level Quality Engineer and was promoted to Release Manager for the Mobile Engineering vertical, supporting applications with 4M+ users. \n\nLater transitioned into the Release Manager role, taking ownership of end-to-end mobile release management, including release planning and execution, cross-functional coordination across Engineering, Product, Backend, and Customer Experience teams, dependency management, risk assessment, release readiness, and deployment strategies. Oversaw release calendars, branching strategies, feature flag lifecycle management, CI/CD pipelines, App Store submissions, crash monitoring, and release-related technical processes.\n\nIn February 2026, transitioned into a Technical Program Manager (TPM) role, coordinating technical initiatives and cross-functional engineering efforts. Following an organizational restructuring in November 2026, transitioned back into an SDET role with a broader engineering perspective, bridging software quality, development practices, and engineering processes.",
+          "intro": "Joined Flipp as a Senior Quality Engineer and was promoted to Release Manager for the Mobile Engineering vertical, supporting applications with 4M+ users. Took ownership of end-to-end mobile release management, including release planning and execution, cross-functional coordination across Engineering, Product, Backend, and Customer Experience teams, dependency management, risk assessment, release readiness, and deployment strategies.\n\nOversaw release calendars, branching strategies, feature flag lifecycle management, CI/CD pipelines, App Store submissions, crash monitoring, and release-related technical processes.\n\nIn February 2026, transitioned into a Technical Program Manager (TPM) role, coordinating technical initiatives and cross-functional engineering efforts. Following an organizational restructuring in November 2026, transitioned into an SDET role with a broader engineering perspective, bridging software quality, development practices, and engineering processes.",
           "bullets": [
             "**Revamped the mobile CI/CD infrastructure**, migrating pipelines from Jenkins to GitHub Actions across on-premise and cloud environments, reducing build execution times from 40 minutes to approximately 7 minutes.",
             "**Designed and developed a self-service mobile build platform**, enabling QA engineers and non-technical stakeholders to trigger builds on demand and distribute them directly to their devices through APKs, Firebase App Distribution, and TestFlight, reducing engineering dependencies and accelerating validation workflows.",
@@ -230,13 +230,14 @@
             "**Supported the integration of Reebee Inc. and ShopFully following their acquisitions**, collaborating with engineering and product teams to facilitate product and organizational integration.",
             "Increased mobile release cadence from 3 to 5 releases per month by optimizing release workflows, improving cross-team coordination, and streamlining validation and deployment processes, increasing delivery frequency by approximately 67% without compromising product quality or release stability."
           ],
-          "title": "Release Manager - TPM"
+          "title": "Release Manager / SDET"
         },
         "1": {
           "roles": [
             "2019 - Mid QA",
             "2020 - 2022 - Senior QA"
-          ]
+          ],
+          "title": "Senior QA Automation Engineer / QA Lead "
         }
       }
     }
