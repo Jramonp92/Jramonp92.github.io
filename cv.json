@@ -168,7 +168,7 @@
   "variants": {
     "aa": {
       "label": "Release Manager",
-      "role": "Release Manager / LeadQuality Engineer",
+      "role": "Release Manager / AI Quality Engineer / SDET",
       "pdfName": "CV-Jesus-Ramon-2026",
       "summary": [
         "Release Manager with a strong engineering background and 8+ years of experience across software quality engineering, automation, release management, Devops, developer tooling, and mobile and web platforms.",
@@ -206,7 +206,7 @@
         "Incident Manager",
         "AI Engineering",
         "DeepEval",
-        "Rag System"
+        "Rags"
       ],
       "jobs": {
         "0": {
